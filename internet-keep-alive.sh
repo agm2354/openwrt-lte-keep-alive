@@ -1,6 +1,6 @@
 #!/bin/ash
 # The main script file. I recommend putting into cron, e.g.:
-# */2 * * * * /root/internet-keep-alive/internet-keep-alive.sh
+# */1 * * * * /root/internet-keep-alive.sh
 
 DIR=$( cd $(dirname $0) ; pwd -P )
 LOG_FILE="$DIR/log.txt"
